@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap 3</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!----------------------------------------------------------header------------------------------->
+        <div class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                
+                <a href="#" class="navbar-brand">Tech Site</a> 
+                
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse navHeaderCollapse">
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li class="dropdown">
+                                
+                               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Twitter</a></li>
+                                        <li><a href="#">FB</a></li>
+                                        <li><a href="#">Google+</a></li>
+                                    
+                                    </ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#contact" data-toggle="modal">Contact</a></li>
+                        </ul>
+
+                    </div>
+               </div>
+            </div>
+        </div>
+        <!-------------------------------------------------------- Vsebina head--------------------------------------------->
+        
+        
+        <div class="container">
+        
+            <div class="jumbotron">
+               <center><h1>Hello World</h1> 
+                <p>In this tutorial, we will be adding a jumbotron (formerly known as a hero unit) to our site. The purpose of the jumbotron is for large messages that you want your viewers to see clearly, such as your latest video or blog post.</p>
+                <a class="btn btn-default">Watch now</a>
+                <a class="btn btn-default btn-info">Tweet it</a></center>
+            </div>
+        
+        </div>
+        <!-------------------------------------------------------------- Vsebina------------------------------------->
+       
+        <div class="container">
+        
+            <div class="row">
+            
+                <div class="col-md-3">
+                
+                    <h3><a href="#">PC build</a></h3>
+                    <p>Note that there may be delays between a jQuery release and its availability there. Please be patient, they receive the files at the same time the blog post is made public. Beta and release candidates are not hosted by these CDNs.</p>
+                    <a href="#" class="btn btn-default">Read more</a>
+                
+                </div>
+                <div class="col-md-3">
+                
+                    <h3><a href="#">PC build</a></h3>
+                    <p>Note that there may be delays between a jQuery release and its availability there. Please be patient, they receive the files at the same time the blog post is made public. Beta and release candidates are not hosted by these CDNs.</p>
+                    <a href="#" class="btn btn-default">Read more</a>
+                
+                </div>
+                <div class="col-md-3">
+                
+                    <h3><a href="#">PC build</a></h3>
+                    <p>Note that there may be delays between a jQuery release and its availability there. Please be patient, they receive the files at the same time the blog post is made public. Beta and release candidates are not hosted by these CDNs.</p>
+                    <a href="#" class="btn btn-default">Read more</a>
+                
+                </div>
+                <div class="col-md-3">
+                
+                    <h3><a href="#">PC build</a></h3>
+                    <p>Note that there may be delays between a jQuery release and its availability there. Please be patient, they receive the files at the same time the blog post is made public. Beta and release candidates are not hosted by these CDNs.</p>
+                    <a href="#" class="btn btn-default">Read more</a>
+                
+                </div>
+            
+            </div>
+        
+        </div>
+        
+        
+        <!-------------------------------------------------Foter----------------------------------------------->
+        <div class="navbar navbar-default navbar-fixed-bottom">
+        
+            <div class="container">
+                <p class="navbar-text pull-left">Site Built By Uros</p>
+                <a href="http://www.youtube.com" class="navbar-btn btn-danger btn pull-right">Subscribe on youtube</a>
+            </div>
+        
+        </div>
+        <!-------------------------------------------------popup---------------------------------------------->      
+        <div class="modal fade" id="contact" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form class="form-horizontal">
+                        <div class="modal-header">
+                            <h4>Contact Tech site</h4>
+                        </div>
+                        <div class="modal-body">
+                            
+                            <div class="form-group">
+                                <label for="contact-name" class="col-lg-2 control-label">Name</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                                </div>
+                            
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-email" class="col-lg-2 control-label">e-mail</label>
+                                <div class="col-lg-10">
+                                    <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+                                </div>
+                            
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-msg" class="col-lg-2 control-label">Message</label>
+                                <div class="col-lg-10">
+                                    <textarea class="form-control" rows="8"></textarea>
+                                </div>
+                            
+                            </div>
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <a class="btn btn-default" data-dismiss="modal">Close</a>
+                            <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+            <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+            <script src="js/bootstrap.js"></script>
+
+    </body>
+</html>
